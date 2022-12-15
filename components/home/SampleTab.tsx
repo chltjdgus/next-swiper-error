@@ -33,14 +33,15 @@ const SampleTab: FC<Props> = (props) => {
             >
                 <SwiperSlide data-history="slide1">Slide 1
                 <br/>
-                    <p style={{color:'yellow'}}>1. Swipe next Page</p>
+                    <p style={{color:'yellow'}}>1. Swipe next Page2</p>
                 </SwiperSlide>
                 <SwiperSlide data-history="slide2">Slide 2
+                    <p style={{color:'yellow'}}>1. Swipe next Page3</p>
+                </SwiperSlide>
+                <SwiperSlide data-history="slide3">Slide 3
                     <br/>
                     <Link href="/help" style={{color:'red'}} >2. CLICK HELP LINK</Link>
-
                 </SwiperSlide>
-                <SwiperSlide data-history="slide3">Slide 3</SwiperSlide>
                 <SwiperSlide data-history="slide4">Slide 4</SwiperSlide>
             </Swiper>
         </div>
