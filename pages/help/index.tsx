@@ -6,9 +6,9 @@ const HelpSample = () => {
         <div style={{height:500}}>
             HELP NEW PAGE
             <br/>
-            <Link href={"/exam"}>EXAM LINK</Link>
+            <Link href={"/exam"} style={{color:'red'}}>EXAM LINK</Link>
 <br/>
-            Try History back. Change URL but not change page.
+           <b style={{color:'yellow'}}> Try History back. Change URL but not change page.</b>
         </div>
 
     );
