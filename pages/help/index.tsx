@@ -4,9 +4,11 @@ import Link from 'next/link'
 const HelpSample = () => {
     return (
         <div style={{height:500}}>
-            help new page
-            <Link href={"/exam"}>exam link</Link>
-
+            HELP NEW PAGE
+            <br/>
+            <Link href={"/exam"}>EXAM LINK</Link>
+<br/>
+            Try History back. Change URL but not change page.
         </div>
 
     );
