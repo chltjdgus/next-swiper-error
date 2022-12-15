@@ -8,7 +8,7 @@ const HelpSample = () => {
             <br/>
             <Link href={"/exam"} style={{color:'red'}}>EXAM LINK</Link>
 <br/>
-           <b style={{color:'yellow'}}> 3. Try History back. Change URL but not change page.</b>
+           <b style={{color:'yellow'}}> 3. Try History back. Change URL but not change page. (MOUSE back key)</b>
         </div>
 
     );
